@@ -1,0 +1,11 @@
+{
+  "admins": [
+    {
+      "id": 1,
+      "benutzername": "admin",
+      "passwort": "1234",
+      "angelegteWörter": 0,
+      "übersetzteWörter": 0
+    }
+  ]
+}

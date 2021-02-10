@@ -1,0 +1,39 @@
+{
+  "words": [
+    {
+      "id" : 1,
+      "Hallo": [
+        {
+          "englisch": "Hello",
+          "russich": "Privet",
+          "französisch": "Bonjur",
+          "italienisch": "Ciao"
+        }
+      ]
+    },
+    {
+      "id" : 2,
+      "Tisch": [
+        {
+          "englisch": "Table",
+          "russich": "",
+          "französisch": "Table",
+          "italienisch": "Tavolo"
+        }
+
+      ]
+    },
+    {
+      "id" : 3,
+      "Essen": [
+        {
+          "englisch": "Food",
+          "russich": "",
+          "französisch": "Manger",
+          "italienisch": ""
+        }
+
+      ]
+    }
+  ]
+}
