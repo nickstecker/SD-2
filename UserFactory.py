@@ -1,21 +1,17 @@
 import Menu
 import json
-import UserTyp
-import User
-import Translator
-import Admin
+from UserTyp import UserTyp
+from User import User
+from Translator import Translator
+from Admin import Admin
 
 
 class User_Factory(UserTyp):
     @staticmethod
-    def getUserTyp(type):
+    def getUserTyp(type, name):
         if type == 'user':
-            return User()
+            return User(name)
         if type == 'translator':
-            return Translator()
+            return Translator(name)
         if type == 'admin':
-            return Admin()
-
-factory = User_Factory()
-user1 = factory.getUserTyp('user')
-user1.showMenu()
+            return Admin(name)

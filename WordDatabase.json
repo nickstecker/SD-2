@@ -1,39 +1,88 @@
 {
-  "words": [
-    {
-      "id" : 1,
-      "Hallo": [
+    "words": [
         {
-          "englisch": "Hello",
-          "russich": "Privet",
-          "französisch": "Bonjur",
-          "italienisch": "Ciao"
-        }
-      ]
-    },
-    {
-      "id" : 2,
-      "Tisch": [
+            "id": 1,
+            "word": "Hallo",
+            "translations": [
+                {
+                    "englisch": "Hello",
+                    "russich": "Privet",
+                    "französisch": "Bonjur",
+                    "italienisch": "Ciao"
+                }
+            ]
+        },
         {
-          "englisch": "Table",
-          "russich": "",
-          "französisch": "Table",
-          "italienisch": "Tavolo"
-        }
-
-      ]
-    },
-    {
-      "id" : 3,
-      "Essen": [
+            "id": 2,
+            "word": "Tisch",
+            "translations": [
+                {
+                    "englisch": "Table",
+                    "russich": "",
+                    "französisch": "Table",
+                    "italienisch": "Tavolo"
+                }
+            ]
+        },
         {
-          "englisch": "Food",
-          "russich": "",
-          "französisch": "Manger",
-          "italienisch": ""
+            "id": 3,
+            "word": "Essen",
+            "translations": [
+                {
+                    "englisch": "Food",
+                    "russich": "",
+                    "französisch": "Manger",
+                    "italienisch": ""
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "word": "Fisch",
+            "translations": [
+                {
+                    "englisch": "",
+                    "russich": "",
+                    "französisch": "",
+                    "italienisch": ""
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "word": "Kind",
+            "translations": [
+                {
+                    "englisch": "",
+                    "russich": "",
+                    "französisch": "",
+                    "italienisch": ""
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "word": "Banane",
+            "translations": [
+                {
+                    "englisch": "",
+                    "russich": "",
+                    "französisch": "",
+                    "italienisch": ""
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "word": "Apfel",
+            "translations": [
+                {
+                    "englisch": "",
+                    "russich": "",
+                    "französisch": "",
+                    "italienisch": ""
+                }
+            ]
         }
-
-      ]
-    }
-  ]
+    ]
 }

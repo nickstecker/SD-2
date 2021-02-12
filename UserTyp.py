@@ -1,4 +1,5 @@
-class UserTyp():
+class UserTyp(object):
 
-    def showMenu(self):
+    def showMenu(self, userTyp):
         pass
+

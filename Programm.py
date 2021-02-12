@@ -1,5 +1,10 @@
 import json
 import os
+from UserFactory import User_Factory
+from User import User
+from Menu import Menu
+from Translator import Translator
+from Admin import Admin
 
 def login():
     print("\n")
@@ -12,8 +17,10 @@ def login():
         userName = input("Benutzernamen: ")
         with open(os.path.join(os.path.dirname(__file__), 'UserDatabase.json'), 'r', encoding="utf-8") as file:
             userData = json.load(file)
-            if userName == userData["user"][0]["benutzername"]:
+            if userName == userData['users'][0]["benutzername"]:
                 print("Erfolgreich eingelogt")
+                user = User_Factory.getUserTyp('user', userName)
+                user.showMenu(userTyp, userName)
             else:
                 print("Benutzername oder Passwort falsch")
                 login()
@@ -25,6 +32,8 @@ def login():
             translatorData = json.load(file)
             if translatorName == translatorData['translators'][0]['benutzername'] and translatorPassword == translatorData['translators'][0]['passwort']:
                 print("Erfolgreich eingelogt")
+                translator = User_Factory.getUserTyp('translator', translatorName)
+                translator.showMenu(userTyp, translatorName)
             else:
                 print("Benutzername oder Passwort falsch")
                 login()
@@ -36,14 +45,14 @@ def login():
             adminData = json.load(file)
             if adminName == adminData['admins'][0]['benutzername'] and adminPassword == adminData['admins'][0]['passwort']:
                 print("Erfolgreich eingelogt")
+                admin = User_Factory.getUserTyp('admin', adminName)
+                admin.showMenu(userTyp, adminName)
             else:
                 print("Benutzername oder Passwort falsch")
                 login()
     else:
         print("Du hast eine flasche Zahl eingegeben.")
         login()
-
-    return userTyp
 
 
 if __name__ == "__main__":
