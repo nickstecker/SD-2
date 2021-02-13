@@ -20,13 +20,3 @@ class Admin(UserTyp):
             print("\nDas ist die Summer deiner angelegten Wörter:")
             print("-> " + str(createdWords))
         Menu.Menu.menuOrClose(self, userTyp, adminName)
-
-    def showTranslatedWords(self, userTyp, adminName):
-        with open(os.path.join(os.path.dirname(__file__), 'AdminDatabase.json'), 'r', encoding="utf-8") as file:
-            adminData = json.load(file)
-            for admin in adminData['admins']:
-                if admin['username'] == adminName:
-                    translatedWords = admin['translatedWords']
-            print("\nDas ist die Summer deiner selbst übersetzten Wörter:")
-            print("-> " + str(translatedWords))
-        Menu.Menu.menuOrClose(self, userTyp, adminName)

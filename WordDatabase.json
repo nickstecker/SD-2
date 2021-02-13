@@ -8,7 +8,8 @@
                     "english": "Hello",
                     "russian": "Privet",
                     "french": "Bonjur",
-                    "italian": "Ciao"
+                    "italian": "Ciao",
+                    "dutch": ""
                 }
             ]
         },
@@ -18,9 +19,10 @@
             "translations": [
                 {
                     "english": "Table",
-                    "russian": "",
+                    "russian": "Tablita",
                     "french": "Table",
-                    "italian": "Tavolo"
+                    "italian": "Tavolo",
+                    "dutch": ""
                 }
             ]
         },
@@ -32,7 +34,8 @@
                     "english": "Food",
                     "russian": "",
                     "french": "Manger",
-                    "italian": ""
+                    "italian": "Cibo",
+                    "dutch": ""
                 }
             ]
         },
@@ -41,10 +44,11 @@
             "word": "Fisch",
             "translations": [
                 {
-                    "english": "",
+                    "english": "Fish",
                     "russian": "",
                     "french": "",
-                    "italian": ""
+                    "italian": "",
+                    "dutch": ""
                 }
             ]
         },
@@ -56,7 +60,8 @@
                     "english": "",
                     "russian": "",
                     "french": "",
-                    "italian": ""
+                    "italian": "",
+                    "dutch": ""
                 }
             ]
         },
@@ -68,7 +73,8 @@
                     "english": "",
                     "russian": "",
                     "french": "",
-                    "italian": ""
+                    "italian": "",
+                    "dutch": ""
                 }
             ]
         },
@@ -77,10 +83,24 @@
             "word": "Apfel",
             "translations": [
                 {
-                    "english": "",
+                    "english": "apple",
                     "russian": "",
                     "french": "",
-                    "italian": ""
+                    "italian": "",
+                    "dutch": ""
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "word": "Brot",
+            "translations": [
+                {
+                    "english": "Bread",
+                    "russian": "",
+                    "french": "",
+                    "italian": "",
+                    "dutch": ""
                 }
             ]
         }

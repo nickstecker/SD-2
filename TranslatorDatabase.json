@@ -1,21 +1,24 @@
 {
-  "translators": [
-    {
-      "username": "translator",
-      "password": "1234",
-      "createdWords": 0,
-      "translatedWords": 0,
-      "assignedLanguages": [
+    "translators": [
         {
-          "languageId": 2,
-          "languagename" : "english"
-
-        },
-        {
-          "languageId": 4,
-          "languagename" : "french"
+            "username": "translator",
+            "password": "1234",
+            "createdWords": 1,
+            "translatedWords": 3,
+            "assignedLanguages": [
+                {
+                    "languageId": 2,
+                    "languagename": "english"
+                },
+                {
+                    "languageId": 4,
+                    "languagename": "french"
+                },
+                {
+                    "languageId": 5,
+                    "languagename": "italian"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
