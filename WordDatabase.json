@@ -5,10 +5,10 @@
             "word": "Hallo",
             "translations": [
                 {
-                    "englisch": "Hello",
-                    "russich": "Privet",
-                    "französisch": "Bonjur",
-                    "italienisch": "Ciao"
+                    "english": "Hello",
+                    "russian": "Privet",
+                    "french": "Bonjur",
+                    "italian": "Ciao"
                 }
             ]
         },
@@ -17,10 +17,10 @@
             "word": "Tisch",
             "translations": [
                 {
-                    "englisch": "Table",
-                    "russich": "",
-                    "französisch": "Table",
-                    "italienisch": "Tavolo"
+                    "english": "Table",
+                    "russian": "",
+                    "french": "Table",
+                    "italian": "Tavolo"
                 }
             ]
         },
@@ -29,10 +29,10 @@
             "word": "Essen",
             "translations": [
                 {
-                    "englisch": "Food",
-                    "russich": "",
-                    "französisch": "Manger",
-                    "italienisch": ""
+                    "english": "Food",
+                    "russian": "",
+                    "french": "Manger",
+                    "italian": ""
                 }
             ]
         },
@@ -41,10 +41,10 @@
             "word": "Fisch",
             "translations": [
                 {
-                    "englisch": "",
-                    "russich": "",
-                    "französisch": "",
-                    "italienisch": ""
+                    "english": "",
+                    "russian": "",
+                    "french": "",
+                    "italian": ""
                 }
             ]
         },
@@ -53,10 +53,10 @@
             "word": "Kind",
             "translations": [
                 {
-                    "englisch": "",
-                    "russich": "",
-                    "französisch": "",
-                    "italienisch": ""
+                    "english": "",
+                    "russian": "",
+                    "french": "",
+                    "italian": ""
                 }
             ]
         },
@@ -65,10 +65,10 @@
             "word": "Banane",
             "translations": [
                 {
-                    "englisch": "",
-                    "russich": "",
-                    "französisch": "",
-                    "italienisch": ""
+                    "english": "",
+                    "russian": "",
+                    "french": "",
+                    "italian": ""
                 }
             ]
         },
@@ -77,10 +77,10 @@
             "word": "Apfel",
             "translations": [
                 {
-                    "englisch": "",
-                    "russich": "",
-                    "französisch": "",
-                    "italienisch": ""
+                    "english": "",
+                    "russian": "",
+                    "french": "",
+                    "italian": ""
                 }
             ]
         }

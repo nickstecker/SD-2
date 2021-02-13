@@ -15,8 +15,8 @@ class User(UserTyp):
         with open(os.path.join(os.path.dirname(__file__), 'UserDatabase.json'), 'r', encoding="utf-8") as file:
             userData = json.load(file)
             for user in userData['users']:
-                if user['benutzername'] == userName:
-                    createdWords = user['angelegteWörter']
-            print("Das ist die Summer deiner angelegten Wörter:")
+                if user['username'] == userName:
+                    createdWords = user['createdWords']
+            print("\nDas ist die Summer deiner angelegten Wörter:")
             print("-> " + str(createdWords))
         Menu.Menu.menuOrClose(self, userTyp, userName)

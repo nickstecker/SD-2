@@ -2,8 +2,8 @@
     "users": [
         {
             "id": 1,
-            "benutzername": "user",
-            "angelegteWörter": 1
+            "username": "user",
+            "createdWords": 1
         }
     ]
 }

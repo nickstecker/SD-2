@@ -17,7 +17,7 @@ def login():
         userName = input("Benutzernamen: ")
         with open(os.path.join(os.path.dirname(__file__), 'UserDatabase.json'), 'r', encoding="utf-8") as file:
             userData = json.load(file)
-            if userName == userData['users'][0]["benutzername"]:
+            if userName == userData['users'][0]["username"]:
                 print("Erfolgreich eingelogt")
                 user = User_Factory.getUserTyp('user', userName)
                 user.showMenu(userTyp, userName)
@@ -30,7 +30,7 @@ def login():
         translatorPassword = input("Passwort: ")
         with open(os.path.join(os.path.dirname(__file__), 'TranslatorDatabase.json'), 'r', encoding="utf-8") as file:
             translatorData = json.load(file)
-            if translatorName == translatorData['translators'][0]['benutzername'] and translatorPassword == translatorData['translators'][0]['passwort']:
+            if translatorName == translatorData['translators'][0]['username'] and translatorPassword == translatorData['translators'][0]['password']:
                 print("Erfolgreich eingelogt")
                 translator = User_Factory.getUserTyp('translator', translatorName)
                 translator.showMenu(userTyp, translatorName)
@@ -43,7 +43,7 @@ def login():
         adminPassword = input("Passwort: ")
         with open(os.path.join(os.path.dirname(__file__), 'AdminDatabase.json'), 'r', encoding="utf-8") as file:
             adminData = json.load(file)
-            if adminName == adminData['admins'][0]['benutzername'] and adminPassword == adminData['admins'][0]['passwort']:
+            if adminName == adminData['admins'][0]['username'] and adminPassword == adminData['admins'][0]['password']:
                 print("Erfolgreich eingelogt")
                 admin = User_Factory.getUserTyp('admin', adminName)
                 admin.showMenu(userTyp, adminName)

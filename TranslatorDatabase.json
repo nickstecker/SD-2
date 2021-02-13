@@ -1,10 +1,21 @@
 {
   "translators": [
     {
-      "benutzername": "translator",
-      "passwort": "1234",
-      "angelegteWörter": 0,
-      "übersetzteWörter": 0
+      "username": "translator",
+      "password": "1234",
+      "createdWords": 0,
+      "translatedWords": 0,
+      "assignedLanguages": [
+        {
+          "languageId": 2,
+          "languagename" : "english"
+
+        },
+        {
+          "languageId": 4,
+          "languagename" : "french"
+        }
+      ]
     }
   ]
 }
