@@ -10,16 +10,16 @@ class Menu():
     def showUserMenu(self, userTyp, userName):
         print("\n**************** BENUTZER-MENÜ ****************")
         print("Hey, " + userName + " was möchtest du machen?")
-        print("(1) Nach einem Wort und dessen Übersetzungen suchen\n(2) Summer der angelegten Wörter anzeigen\n"
-              "(3) Summer der Wörter in der Datenbank anzeigen\n(4) Programm beenden")
+        print("(1) Nach einem Wort und dessen Übersetzungen suchen\n(2) Summe der angelegten Wörter anzeigen\n"
+              "(3) Summe der Wörter in der Datenbank anzeigen\n(4) Programm beenden")
         userMenuNumber = int(input("-> Was möchtest du machen? "))
         Menu.menuNavigation(self, userTyp, userName, userMenuNumber)
 
     def showTranslatorMenu(self, userTyp, translatorName):
         print("\n**************** ÜBERSETZER-MENÜ ****************")
         print("Hey, " + translatorName + " was möchtest du machen?")
-        print("(1) Nach einem Wort und dessen Übersetzungen suchen\n(2) Summer der angelegten Wörter anzeigen\n"
-              "(3) Summer der Wörter in der Datenbank anzeigen\n(4) Summe der selbst übersetzten Wörter anzeigen\n"
+        print("(1) Nach einem Wort und dessen Übersetzungen suchen\n(2) Summe der angelegten Wörter anzeigen\n"
+              "(3) Summe der Wörter in der Datenbank anzeigen\n(4) Summe der selbst übersetzten Wörter anzeigen\n"
               "(5) Wörter anzeigen bei denen Übersetzungen fehlen\n(6) Programm beenden")
         translatorMenuNumber = int(input("-> Was möchtest du machen? "))
         Menu.menuNavigation(self, userTyp, translatorName, translatorMenuNumber)
@@ -27,7 +27,7 @@ class Menu():
     def showAdminMenu(self, userTyp, adminName):
         print("\n**************** ADMIN-MENÜ ****************")
         print("Hey, " + adminName + " was möchtest du machen?")
-        print("(1) Nach einem Wort und dessen Übersetzungen suchen\n(2) Summer der angelegten Wörter anzeigen\n"
+        print("(1) Nach einem Wort und dessen Übersetzungen suchen\n(2) Summe der angelegten Wörter anzeigen\n"
               "(3) Summer der Wörter in der Datenbank anzeigen\n(4) Wörter anzeigen bei denen Übersetzungen fehlen\n"
               "(5) Neue Sprache anlegen\n(6) Einem Übersetzer eine neue Sprache zuweisen\n(7) Programm beenden")
         adminMenuNumber = int(input("-> Was möchtest du machen? "))
@@ -331,7 +331,7 @@ class Menu():
         print("\nWelches Wort willst du übersetzten?")
         wordToTranslate = input("-> ")
         if wordToTranslate in wordList:
-            print("In welcher Sprache willst du " + '"' + wordToTranslate + '"' + " übersetzen?")
+            print("In welcher Sprache willst du " + '"' + wordToTranslate + '"' + " übersetzen?(Sprache bitte auf Englisch eingeben)")
             language = input("-> ")
             if language in wordList[wordToTranslate]:
                 print("\nBitte gebe die Übersetzung von " + '"' + wordToTranslate + '"' + " auf " + language + " ein:")
